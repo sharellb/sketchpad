@@ -1,8 +1,14 @@
 $(document).ready( function () {
-	for (var i = 0; i <=16; i++) {
+
+	var rows = 16;
+	var cols = 16;
+
+
+	for (var i = 0; i <= rows; i++) {
 		$('#grid').append('<tr class="row"></tr>');
 	}
-	for (var j = 0; j <=16; j++) {
+
+	for (var j = 0; j <= cols; j++) {
 		$('.row').append('<td><div class="box"></div></td>');
 	}
 
