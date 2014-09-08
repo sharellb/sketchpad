@@ -6,5 +6,10 @@ $(document).ready( function () {
 		$('.row').append('<td><div class="box"></div></td>');
 	}
 
-});
 
+	$('.box').hover (
+		function() {
+			$(this).css("background-color", "blue");
+	});
+
+});
