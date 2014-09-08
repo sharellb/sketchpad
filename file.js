@@ -12,4 +12,8 @@ $(document).ready( function () {
 			$(this).css("background-color", "blue");
 	});
 
+	$('#clear').click(function(){
+		$('.box').css("background-color", "white");
+	});
+
 });
